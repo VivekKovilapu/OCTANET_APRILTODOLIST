@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/Todoimg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+h1{
+    color: rgb(229, 43, 105);
+}
+
+.gif{
+    background-image: url('/TodoGIF2.png');
+    background-repeat: no-repeat;
+    height: 90px;
+    width:90px;
+    background-size: cover;
+    float: right;
+}
+
+.gif1{
+    background-image: url('/TodoGIF1.gif');
+    background-repeat: no-repeat;
+    height: 50px;
+    width:50px;
+    background-size: cover;
+    margin-left: 130px;
+    margin-bottom: -10px;
+}
+
+#todo-container {
+    margin-top: 20px;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid rgb(229, 43, 105);
+    border-radius: 4px 0 0 4px;
+}
+
+.input-container button {
+    padding: 10px 20px;
+    background-color: rgb(229, 43, 105);
+    color: #fff;
+    border: 1px solid rgb(229, 43, 105);
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgb(229, 43, 105);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+li.completed {
+    background-color: palevioletred;
+    text-decoration: line-through;
+}
+
+button {
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+
+#clear-completed-btn{
+    height : 30px;
+    width : 150px;
+    color:aliceblue;
+    background-color: rgb(229, 43, 105);
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
